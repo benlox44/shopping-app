@@ -1,0 +1,37 @@
+.image-container {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    width: max-content;
+    /* Ajusta la duración según sea necesario */
+  }
+  
+  .course-image {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 150px;
+    margin: 15px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%); /* Empieza desde la posición original */
+    }
+    100% {
+      transform: translateX(-50%); /* Mueve el contenedor a la mitad de su tamaño, creando un efecto de bucle continuo */
+    }
+  }
+
+  .image-container.reverse {
+    animation: scroll-reverse 21s linear infinite; /* Animación inversa */
+  }
+  
+  /* Animación inversa para el desplazamiento hacia la derecha */
+  @keyframes scroll-reverse {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

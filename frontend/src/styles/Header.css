@@ -1,0 +1,50 @@
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #2b9c3a;
+    color: rgb(175, 1, 1);
+    border-radius: 8px;
+}
+  
+.nav {
+    display: flex;
+    gap: 10px;
+}
+  
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.primaryButton {
+    background-color: #0ba131;
+    color: white;
+}
+  
+.secondaryButton {
+    background-color: #2ecc71;
+    color: white;
+}
+  
+.logoutButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.username {
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
