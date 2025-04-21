@@ -1,0 +1,38 @@
+.purchaseFailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffebee;
+  padding: 20px;
+}
+
+.purchaseFailureText {
+  color: #d32f2f;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.purchaseFailureDetail {
+  color: #c62828;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.goToCoursesButton {
+  padding: 12px 25px;
+  background-color: #d32f2f;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.goToCoursesButton:hover {
+  background-color: #b71c1c;
+}
